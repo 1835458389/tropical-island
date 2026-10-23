@@ -1,0 +1,6 @@
+{
+  "linearUnit": "millimeter",
+  "linearDeflectionType": "bounding_box_ratio",
+  "linearDeflection": 0.001,
+  "angularDeflection": 0.5
+}

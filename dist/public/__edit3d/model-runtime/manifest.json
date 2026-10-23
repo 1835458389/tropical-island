@@ -1,0 +1,141 @@
+{
+  "threePeer": "0.186.x",
+  "addonSource": {
+    "version": "0.185.1",
+    "patch": "patches/three@0.185.1.patch"
+  },
+  "packages": [
+    {
+      "name": "earcut",
+      "version": "3.2.3",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git://github.com/mapbox/earcut.git"
+      },
+      "licenseFiles": [
+        "licenses/earcut-LICENSE",
+        "licenses/earcut-README.md"
+      ]
+    },
+    {
+      "name": "fflate",
+      "version": "0.8.3",
+      "license": "MIT",
+      "repository": "https://github.com/101arrowz/fflate",
+      "licenseFiles": [
+        "licenses/fflate-LICENSE",
+        "licenses/fflate-README.md"
+      ]
+    },
+    {
+      "name": "occt-import-js",
+      "version": "0.0.23",
+      "license": "LGPL-2.1",
+      "repository": "github:kovacsv/occt-import-js",
+      "licenseFiles": [
+        "licenses/occt-import-js-LICENSE.md",
+        "licenses/occt-import-js-README.md",
+        "licenses/occt-import-js-dist-license.occt-import-js.txt",
+        "licenses/occt-import-js-dist-license.occt.txt"
+      ]
+    },
+    {
+      "name": "openskp",
+      "version": "1.1.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/iamahsanmehmood/openskp",
+        "directory": "packages/typescript"
+      },
+      "licenseFiles": [
+        "licenses/openskp-README.md"
+      ]
+    },
+    {
+      "name": "rhino3dm",
+      "version": "8.17.0",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mcneel/rhino3dm.git"
+      },
+      "licenseFiles": [
+        "licenses/rhino3dm-README.md"
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.185.1",
+      "license": "MIT",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/mrdoob/three.js"
+      },
+      "licenseFiles": [
+        "licenses/three-LICENSE",
+        "licenses/three-README.md",
+        "licenses/three-examples-jsm-libs-draco-README.md",
+        "licenses/three-examples-jsm-libs-basis-README.md"
+      ]
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "path": "draco/draco_decoder.js",
+      "bytes": 512465,
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f"
+    },
+    {
+      "path": "draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "basis/basis_transcoder.js",
+      "bytes": 57529,
+      "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1"
+    },
+    {
+      "path": "basis/basis_transcoder.wasm",
+      "bytes": 527333,
+      "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a"
+    },
+    {
+      "path": "rhino3dm/rhino3dm.js",
+      "bytes": 142787,
+      "sha256": "ae12fa5d635b4fb6f66d7328a9bde1dfac26f8d021dcf2335e809b69d136fce4"
+    },
+    {
+      "path": "rhino3dm/rhino3dm.wasm",
+      "bytes": 2613109,
+      "sha256": "c831ea5e235603437f6f8f260b0083eebca186a75f8be03efbfc2bb06aa37e21"
+    },
+    {
+      "path": "occt/occt-import-js.js",
+      "bytes": 96871,
+      "sha256": "3fb44ce11d00611f9b3f3c5775d520ebab48930c1f08279b7b1316f05f0d3379"
+    },
+    {
+      "path": "occt/occt-import-js.wasm",
+      "bytes": 7604031,
+      "sha256": "33391fc9d94ea5c869a6718488bf0a9a464222bac9bdc764dfe1690cef281952"
+    },
+    {
+      "path": "occt/package.json",
+      "bytes": 20,
+      "sha256": "dbf8353f77358bc12169b7bb7301e1978d5b503e002ee927229a8993672818fc"
+    },
+    {
+      "path": "occt/import-params.json",
+      "bytes": 138,
+      "sha256": "d7f2a88bf7c2923a3821ce8c7464f60ab12ee505ea0e4900ad11e2d5200954ed"
+    }
+  ]
+}
